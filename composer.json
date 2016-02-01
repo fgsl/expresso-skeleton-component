@@ -1,0 +1,20 @@
+{
+    "name": "expresso/skeleton-component",
+    "description": "Expresso SkeletonComponent",
+    "type": "library",
+    "keywords": [
+        "skeletoncomponent",
+        "expresso",
+        "framework"
+    ],
+    "homepage": "http://gitlab.serpro/flavio.lisboa/expresso-skeleton-component",
+    "license": "AGPL",
+    "autoload": {
+        "psr-4": {
+            "Expresso\\SkeletonComponent\\": "src/Expresso/SkeletonComponent"
+        }
+    },
+    "require": {
+        "php": ">=5.4"
+    }
+}
