@@ -14,5 +14,6 @@ namespace Expresso\SkeletonComponent;
  * @package    Expresso
  * @subpackage SkeletonComponent
  */
-class SkeletonClass {
+class SkeletonClass
+{
 }

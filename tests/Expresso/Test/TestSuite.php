@@ -34,5 +34,5 @@ class TestSuite
         $suite->addTestSuite('Expresso\Test\SkeletonComponent\ComponentTest');
 
         return $suite;
-    }   
+    }
 }
