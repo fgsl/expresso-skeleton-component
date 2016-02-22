@@ -21,7 +21,7 @@ class TestSuite
      */
     public static function main()
     {
-        PHPUnit_TextUI_TestRunner::run(self::suite());
+        \PHPUnit_TextUI_TestRunner::run(self::suite());
     }
 
     /**
@@ -30,8 +30,8 @@ class TestSuite
      */
     public static function suite()
     {
-        $suite = new \PHPUnit_Framework_TestSuite('Expresso\Test\SkeletonComponent\ComponentTest');
-        \PHPUnit_TextUI_TestRunner::run($suite);
+        $suite = new \PHPUnit_Framework_TestSuite('Expresso Component Tests');
+        $suite->addTestSuite('Expresso\Test\SkeletonComponent\ComponentTest');
 
         return $suite;
     }   

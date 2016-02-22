@@ -12,3 +12,5 @@ $psr4 = new \Psr4AutoloaderClass();
 $psr4->addNamespace('Expresso', __DIR__ . '/Expresso');
 $psr4->addNamespace('Expresso', __DIR__ . '/../src/Expresso');
 $psr4->register();
+
+require __DIR__ . '/../vendor/autoload.php';
