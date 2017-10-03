@@ -7,10 +7,21 @@
  * @copyright Copyright (c) 2017 FGSL (http://www.fgsl.eti.br)
  * @license   https://www.gnu.org/licenses/agpl.txt GNU AFFERO GENERAL PUBLIC LICENSE
  */
-require __DIR__ . '/Psr4AutoloaderClass.php';
-$psr4 = new \Psr4AutoloaderClass();
-$psr4->addNamespace('Fgsl', __DIR__ . '/Fgsl');
-$psr4->addNamespace('Fgsl', __DIR__ . '/../src/Fgsl');
-$psr4->register();
+namespace Fgsl\Test\SkeletonComponent;
 
-require __DIR__ . '/../vendor/autoload.php';
+/**
+ * 
+ * @package    Fgsl
+ * @subpackage Test
+ */
+class ComponentTest extends \PHPUnit_Framework_TestCase
+{    
+    /**
+     * ensures creation of an instance
+     * @expectedException \Exception
+     */
+    public function testSomething()
+    {
+        throw new \Exception('Implements some test');
+    }
+}

@@ -1,17 +1,17 @@
 {
-    "name": "expresso/skeleton-component",
-    "description": "Expresso SkeletonComponent",
+    "name": "fgsl/skeleton-component",
+    "description": "Fgsl SkeletonComponent",
     "type": "library",
     "keywords": [
         "skeletoncomponent",
-        "expresso",
+        "fgsl",
         "framework"
     ],
-    "homepage": "https://github.com/fgsl/expresso-skeleton-component",
+    "homepage": "https://github.com/fgsl/skeleton-component",
     "license": "AGPL",
     "autoload": {
         "psr-4": {
-            "Expresso\\SkeletonComponent\\": "src/Expresso/SkeletonComponent"
+            "Fgsl\\SkeletonComponent\\": "src/Fgsl/SkeletonComponent"
         }
     },
     "require": {

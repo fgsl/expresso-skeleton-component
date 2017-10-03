@@ -1,12 +1,12 @@
-# A basic structure for Expresso components
+# A basic structure for Fgsl components
 
 ## Synopsis
 
-Expresso Skeleton Component has patterns for Expresso components
+Fgsl Skeleton Component has patterns for Expresso components
 
 ## Test
 
-    phpunit --bootstrap tests/bootstrap.php tests/Expresso/Test/TestSuite.php
+    phpunit --bootstrap tests/bootstrap.php tests/Fgsl/Test/TestSuite.php
 
 ## License
 
